@@ -54,7 +54,7 @@ def format(pokemon, global_weakness_dict):
 			if (global_weakness_dict.get(very_weak_type) == None):
 				global_weakness_dict.update({very_weak_type : 1.5})
 			else:
-				global_weakness_dict[very_weak_type] += 1.5
+				global_weakness_dict[very_weak_type] += 1
 			print(very_weak_type)
 
 	#print("\n")
